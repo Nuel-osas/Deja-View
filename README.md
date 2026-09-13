@@ -4,6 +4,10 @@ Capture a public website's frontend, collect its assets, preview it locally, and
 
 D-j-View is a local Node.js command-line prototype. It can follow same-origin page links, discover common browser-loaded assets with Chrome, rewrite local paths, and report incomplete downloads. It does **not** promise to clone every website in ten seconds, recover private backends, or automatically convert arbitrary websites to Next.js.
 
+## Using Astra or another coding agent
+
+Start with [the Astra operator guide](docs/astra-guide.md) for a prompt you can paste, exact commands, report interpretation, troubleshooting and handoff instructions. Ask your agent to read [AGENTS.md](AGENTS.md) before it works in this repository. The guide covers both frontend capture and the separate work required for a Next.js migration.
+
 ## Quick start
 
 Requires Node.js 22 or newer. Node.js 24 is the recommended development version.

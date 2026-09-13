@@ -1,5 +1,7 @@
 # Contributing
 
+Coding agents should first read [AGENTS.md](AGENTS.md). Operators using Astra can follow [the operator guide](docs/astra-guide.md).
+
 Use Node.js 22 or newer, install with `npm ci`, and run `npm test`, `npm run test:browser`, and `npm run check` before submitting a change.
 
 Prefer locally generated fixture sites in tests. Keep downloaded websites, third-party asset bundles, credentials and personal capture reports out of commits. Changes to capture completeness should include an example that demonstrates the behavior and a test that fails without the fix.
