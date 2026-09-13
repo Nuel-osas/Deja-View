@@ -1,0 +1,13 @@
+node_modules/
+output/
+evidence/
+.site-capture/
+capture/
+artifacts/
+*.zip
+*.log
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
